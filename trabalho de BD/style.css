@@ -1,0 +1,53 @@
+
+
+.txtLogin {
+    text-align: center;
+    min-height: 30px;
+    text-transform: lowercase;
+}
+.txtLogin {
+    font-size: 20px!important;
+    width: 45%!important;
+    letter-spacing: 3px;
+}
+html, body{
+    font-family: 'Roboto',sans-serif;
+}
+
+.btnLogin {
+    background-color: #0077b5;
+    color: #fff;
+    border: 5px solid #0077b5;
+}
+.btnLogin{
+    font-family: "Roboto",sans-serif;
+    font-size: 17px;
+    padding: 3.5px 8px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 2px;
+    margin: 3px 0;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.1);
+    transition: background,.3s;
+    letter-spacing: 0.5px;
+}
+#aluno{
+    position: absolute;
+    left: 10%;
+}
+#span{
+    position: absolute;
+    left: 7%;
+    top: 95%;
+}
+#jumbotron2{
+    position: relative;
+    width: 55%;
+    left: 25%;
+    background-color: #15c7df
+}
+
+
+
+
+
