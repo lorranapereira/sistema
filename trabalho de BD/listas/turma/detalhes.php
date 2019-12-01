@@ -13,7 +13,7 @@ if($id){
     $listcur2 = $cdao->listar(50,0);
     foreach($listcur2 as $curso2){
      $c = $curso2->getTurma();
-      $listcur = 'SELECT * FROM "Aluno" WHERE "fk_turma" = $id';
+      $listcur = "SELECT * FROM 'Aluno' WHERE 'fk_turma' = '".$id."'";
       print_r($listcur);
     }
   
